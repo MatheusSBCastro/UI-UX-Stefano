@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090c14" />
+    <meta name="description" content="Entre no Aranhaverso. Uma experiência de fã com arte cinematográfica, histórias e um treino de reflexos entre os telhados de Nova York." />
+    <link rel="icon" type="image/svg+xml" href="/spider.svg" />
+    <link rel="preload" href="/assets/spider-hero.png" as="image" />
+    <title>Spider-Verse — Seu amigo da vizinhança</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (location.protocol === 'file:') {
+        document.body.style.cssText = 'margin:0;background:#090c14;color:#f4f0e8;font:16px/1.6 system-ui,sans-serif;padding:40px';
+        document.getElementById('root').innerHTML = '<main style="max-width:600px;margin:10vh auto"><p style="color:#f23b50;letter-spacing:3px">SPIDER—VERSE</p><h1 style="font-size:40px;line-height:1.15">Abra a experiência pelo servidor.</h1><p>Este projeto usa React. O arquivo HTML precisa ser servido pelo Vite para carregar a aplicação.</p><a href="http://127.0.0.1:5175/" style="display:inline-block;padding:14px 22px;background:#c91832;color:white;text-decoration:none;margin:18px 0">Abrir o site do Homem-Aranha →</a><p>Se o servidor estiver desligado, execute na pasta UI-UX-Stefano:</p><pre style="padding:18px;background:#151c2c;overflow:auto">npm.cmd run dev:spider</pre></main>';
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

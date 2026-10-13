@@ -1,0 +1,24 @@
+{
+  "uiUxProMax": {
+    "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "commit": "7246805992a42b7bba37d4cac83b01416f0c6c44",
+    "sourcePath": ".claude/skills/ui-ux-pro-max",
+    "localPath": ".agents/skills/ui-ux-pro-max",
+    "license": "MIT"
+  },
+  "kokonutUi": {
+    "repository": "https://github.com/kokonut-labs/kokonutui",
+    "commit": "484760acbb973947012cb554c91c742b1559275b",
+    "files": ["components/kokonutui/background-paths.tsx", "components/kokonutui/attract-button.tsx"],
+    "snapshots": "vendor/kokonut-ui",
+    "adaptations": "src/components/ui",
+    "catalog": ["https://21st.dev/@kokonutd/components/background-paths", "https://21st.dev/@kokonutd/components/magnetize-button"],
+    "license": "MIT"
+  },
+  "python": {
+    "version": "3.13.16",
+    "url": "https://www.python.org/ftp/python/3.13.16/python-3.13.16-embed-amd64.zip",
+    "sha256": "97dae5274cc54867065e8d5a3226e48c35017ed332a0fdb0e27d5b5821961297",
+    "localOnly": true
+  }
+}
