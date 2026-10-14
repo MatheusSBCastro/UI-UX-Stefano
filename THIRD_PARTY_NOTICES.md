@@ -40,3 +40,13 @@ As artes oficiais de divulgação Marvel / Insomniac / Sony e suas origens estã
 em `testes/homem-aranha/CREDITOS.md`. Não têm a licença MIT dos componentes.
 Bebas Neue é distribuída por Fontsource sob SIL OFL 1.1, preservada em
 `licenses/bebas-neue-OFL.txt`.
+
+## Experimento Atlas Humano
+
+Three.js, incluindo OrbitControls, é distribuído sob licença MIT.
+Origem: https://github.com/mrdoob/three.js
+Copyright © 2010-2025 three.js authors. Licença preservada em
+`licenses/three-MIT.txt` e no pacote instalado.
+O modelo anatômico é original e procedural; as fontes educacionais estão em
+`testes/atlas-humano/CREDITOS.md`. O Attract Button reutiliza o componente
+Kokonut UI creditado acima.

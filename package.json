@@ -15,7 +15,11 @@
     "dev:spider": "vite --config testes/homem-aranha/vite.config.ts --host 127.0.0.1 --port 5175 --strictPort",
     "build:spider": "tsc --noEmit --project testes/homem-aranha/tsconfig.json && vite build --config testes/homem-aranha/vite.config.ts",
     "preview:spider": "vite preview --config testes/homem-aranha/vite.config.ts --host 127.0.0.1 --port 4175 --strictPort",
-    "test:spider": "playwright test --config testes/homem-aranha/playwright.config.ts"
+    "test:spider": "playwright test --config testes/homem-aranha/playwright.config.ts",
+    "dev:atlas": "vite --config testes/atlas-humano/vite.config.ts --host 127.0.0.1 --port 5176 --strictPort",
+    "build:atlas": "tsc --noEmit --project testes/atlas-humano/tsconfig.json && vite build --config testes/atlas-humano/vite.config.ts && node testes/atlas-humano/package-html.mjs",
+    "preview:atlas": "vite preview --config testes/atlas-humano/vite.config.ts --host 127.0.0.1 --port 4176 --strictPort",
+    "test:atlas": "playwright test --config testes/atlas-humano/playwright.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/dm-sans": "5.3.0",
@@ -26,7 +30,8 @@
     "motion": "14.1.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "tailwind-merge": "3.7.0"
+    "tailwind-merge": "3.7.0",
+    "three": "0.177.0"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0",
@@ -34,6 +39,7 @@
     "@types/node": "26.6.5",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
+    "@types/three": "0.177.0",
     "@vitejs/plugin-react": "6.1.2",
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",

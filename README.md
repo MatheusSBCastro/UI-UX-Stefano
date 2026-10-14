@@ -74,6 +74,13 @@ O site do Homem-Aranha está em [testes/homem-aranha](testes/homem-aranha/README
 Execute `npm.cmd run dev:spider` e abra **http://127.0.0.1:5175/**.
 Para compilar e testar: `npm.cmd run build:spider` e `npm.cmd run test:spider`.
 
+O [Atlas Humano](testes/atlas-humano/README.md) apresenta oito camadas anatômicas
+e 17 órgãos exploráveis em 3D. Execute `npm.cmd run dev:atlas` e abra
+**http://127.0.0.1:5176/**. Compile com `npm.cmd run build:atlas` e valide com
+`npm.cmd run test:atlas`. O build também gera
+`testes/atlas-humano/dist/atlas-humano.html`, pronto para abrir sem servidor
+e sem internet.
+
 ## Verificar o kit
 
 ```powershell
