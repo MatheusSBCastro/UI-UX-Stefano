@@ -1,5 +1,11 @@
 # UI-UX-Stefano
 
+**Kit de interfaces interativas com React, TypeScript e Motion.**
+
+![Demonstração local do estúdio](docs/images/overview.png)
+
+**Aplicação de portfólio:** interfaces para produtos e ferramentas, componentes reutilizáveis e controle de animações. A integração e as adaptações deste kit preservam os créditos das bibliotecas e componentes de terceiros em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 Uma base reutilizável para criar sites com design, componentes e animações.
 Inclui uma demonstração de estúdio com laboratório interativo, troca de cores,
 controle de duração, modo de movimento reduzido e prompt inicial copiável.
@@ -9,7 +15,8 @@ controle de duração, modo de movimento reduzido e prompt inicial copiável.
 Requer Node.js 22.12+ (validado com 24.21.0).
 
 ```powershell
-cd "C:\Users\Matheus Stefano\Documents\Projetos\UI-UX-Stefano"
+git clone https://github.com/MatheusSBCastro/UI-UX-Stefano.git
+cd UI-UX-Stefano
 npm.cmd ci --ignore-scripts
 npm.cmd run dev
 ```
