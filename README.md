@@ -1,14 +1,12 @@
 # UI-UX-Stefano
 
-**Kit de interfaces interativas com React, TypeScript e Motion.**
+Uma base em React, TypeScript e Motion para criar interfaces com componentes reutilizáveis.
 
 ![Demonstração local do estúdio](docs/images/overview.png)
 
-**Aplicação de portfólio:** interfaces para produtos e ferramentas, componentes reutilizáveis e controle de animações. A integração e as adaptações deste kit preservam os créditos das bibliotecas e componentes de terceiros em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+O kit pode ser usado em interfaces de produtos e ferramentas, com controle das animações. As bibliotecas e os componentes adaptados estão creditados em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Uma base reutilizável para criar sites com design, componentes e animações.
-Inclui uma demonstração de estúdio com laboratório interativo, troca de cores,
-controle de duração, modo de movimento reduzido e prompt inicial copiável.
+A demonstração de estúdio tem um laboratório interativo para experimentar cores e duração das animações. Inclui modo de movimento reduzido e um prompt que você pode copiar para começar outro site.
 
 ## Começar no Windows
 
